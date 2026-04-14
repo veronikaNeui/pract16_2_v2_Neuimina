@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">pr14_v5_Neuimina</string>
+    <string name="reg">Регистрация</string>
+    <string name="namepol">Имя пользователя</string>
+    <string name="pochta">Адрес электронной почты</string>
+    <string name="password">Пароль</string>
+    <string name="settings">Настройки</string>
+    <string name="userprofile">Профиль пользователя</string>
+    <string name="dataandtime">Дата и время</string>
+    <string name="soundsettings">Настройки звука</string>
+    <string name="checkforupdates">Проверить обновления</string>
+    <string name="calendar">Календарь</string>
+    <string name="january">Январь</string>
+    <string name="list">List</string>
+    <string name="alarm">Alarm</string>
+    <string name="calendarEnglish">Calendar</string>
+    <string name="settingsEnglish">Settings</string>
+    <string name="clock">Будильник</string>
+    <string name="timeone">07:30</string>
+    <string name="timetwo">08:00</string>
+    <string name="addclock">Добавить будильник</string>
+</resources>

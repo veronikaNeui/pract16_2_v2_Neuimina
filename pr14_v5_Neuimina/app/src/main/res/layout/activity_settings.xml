@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@color/sh1">
+<TableRow>
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:text="@string/settings"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="23dp"
+
+        >
+    </TextView>
+<ImageView
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:layout_marginStart="160dp"
+    android:layout_marginTop="17dp"
+    android:src="@drawable/im">
+
+</ImageView>
+
+</TableRow>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userprofile"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="80dp">
+    </TextView>
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/strelka"
+        android:background="@color/sh1">
+
+    </androidx.appcompat.widget.AppCompatImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dataandtime"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="20dp">
+        </TextView>
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="135dp"
+            android:src="@drawable/strelka"
+            android:background="@color/sh1">
+
+        </androidx.appcompat.widget.AppCompatImageButton>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soundsettings"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="20dp">
+        </TextView>
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="95dp"
+            android:src="@drawable/strelka"
+            android:background="@color/sh1">
+        </androidx.appcompat.widget.AppCompatImageButton>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkforupdates"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="20dp">
+        </TextView>
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/strelka"
+            android:background="@color/sh1">
+
+        </androidx.appcompat.widget.AppCompatImageButton>
+    </LinearLayout>
+
+
+
+</TableLayout>

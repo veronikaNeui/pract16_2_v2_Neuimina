@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/sh1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="28dp"
+            android:text="@string/reg"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="23sp"
+            />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:src="@drawable/image"
+            android:layout_marginStart="131dp"
+            android:layout_marginTop="15dp"
+            >
+
+        </androidx.appcompat.widget.AppCompatImageButton>
+    </LinearLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/namepol"
+        android:textColorHint="@color/gray"
+        android:inputType="text"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="173dp"
+        android:textSize="18sp"
+        android:textColor="@color/im"
+        android:background="@drawable/but2"
+        >
+    </EditText>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/pochta"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/gray"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/im"
+        android:background="@drawable/but2"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="text"
+        android:textColorHint="@color/gray"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/im"
+        android:background="@drawable/but2"
+
+        >
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:background="@drawable/butregistr"
+        android:text="@string/reg"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+
+</LinearLayout>
