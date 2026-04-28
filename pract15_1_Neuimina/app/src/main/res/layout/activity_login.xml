@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/darkgreen">
+
+    <ImageView
+        android:layout_width="443dp"
+        android:layout_height="236dp"
+        android:src="@drawable/gree"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="43.41dp"
+        android:layout_height="49dp"
+        android:id="@+id/imageView2"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="101dp"
+        android:src="@drawable/log1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/sign"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+
+        >
+    </TextView>
+
+   <EditText
+       android:layout_width="305dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/editText"
+       android:layout_marginStart="35dp"
+       android:layout_marginTop="333dp"
+       android:layout_marginEnd="34.5dp"
+       android:backgroundTint="@color/gray"
+       android:hint="@string/email"
+       android:inputType="textEmailAddress"
+       android:paddingStart="10dp"
+       android:textColor="@color/white"
+       android:textColorHint="@color/gray"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       >
+   </EditText>
+
+    <EditText
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="@color/gray"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        >
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton2"
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/button"
+        android:fontFamily="serif"
+        android:onClick="signin"
+        android:text="@string/sign"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="serif"
+        android:text="@string/reg"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatButton2"
+
+        >
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton3"
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/button"
+        android:fontFamily="serif"
+        android:onClick="signin"
+        android:text="@string/profil"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

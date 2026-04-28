@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">pract15_1_Neuimina</string>
+    <string name="hello">ПРИВЕТ</string>
+    <string name="one">Наслаждайся отборочными.</string>
+    <string name="two">Будь внимателен.</string>
+    <string name="three">Делай хорошо.</string>
+    <string name="vhod">Войти в аккаунт</string>
+    <string name="no">Ещё нет аккаунта? Зарегестрируйтесь</string>
+    <string name="sign">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="reg">Register</string>
+    <string name="profil">Профиль</string>
+    <string name="name">С возвращением, Вероника!</string>
+    <string name="question">Каким ты себя ощущаешь сегодня?</string>
+    <string name="calm">Спокойным</string>
+    <string name="relaxing">Расслабленным</string>
+    <string name="focused">Сосредоточенным</string>
+    <string name="excited">Взволнованным</string>
+    <string name="good">Нормальным</string>
+    <string name="zagolovok">Заголовок блока</string>
+    <string name="krat">Кратенькое описание блока с двумя строчками</string>
+    <string name="podrobnee">подробнее</string>
+
+</resources>
