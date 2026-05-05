@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">pract_16_2_Neuimina</string>
+    <string name="name">Ввод имени пользователя</string>
+    <string name="vvod">Введите ваше имя</string>
+    <string name="vveditename">Введите имя</string>
+    <string name="save">Сохранить имя</string>
+    <string name="sbros">Сбросить настройки</string>
+    <string name="primechanie">Примечание: после сохранения имя нельзя изменить (только через сброс)</string>
+    <string name="later">Далее</string>
+    <string name="info">Информация о пользователе</string>
+    <string name="namepol">Имя пользователя:</string>
+    <string name="status">Статус:</string>
+    <string name="dannie">Временно скрыть данные</string>
+    <string name="nazad">Назад (редактировать имя)</string>
+
+
+</resources>
