@@ -48,10 +48,10 @@
 
    <EditText
        android:layout_width="305dp"
-       android:layout_height="wrap_content"
-       android:id="@+id/editText"
+       android:layout_height="60dp"
+       android:id="@+id/email"
        android:layout_marginStart="35dp"
-       android:layout_marginTop="333dp"
+       android:layout_marginTop="300dp"
        android:layout_marginEnd="34.5dp"
        android:backgroundTint="@color/gray"
        android:hint="@string/email"
@@ -62,13 +62,13 @@
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toTopOf="parent"
-       >
+       tools:ignore="RtlSymmetry">
    </EditText>
 
     <EditText
         android:layout_width="305dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2"
+        android:layout_height="60dp"
+        android:id="@+id/password"
         android:layout_marginStart="35dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="35dp"
@@ -80,8 +80,8 @@
         android:textColorHint="@color/gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        >
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        tools:ignore="RtlSymmetry">
     </EditText>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -98,7 +98,7 @@
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2">
+        app:layout_constraintTop_toBottomOf="@+id/password">
     </androidx.appcompat.widget.AppCompatButton>
 
 

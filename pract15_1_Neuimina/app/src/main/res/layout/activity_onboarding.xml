@@ -81,7 +81,7 @@
         android:layout_marginStart="27dp"
         android:layout_marginEnd="27dp"
         android:background="@drawable/button"
-        android:onClick="Login"
+        android:onClick="login"
         android:text="@string/vhod"
         android:textAllCaps="false"
         android:textColor="@color/white"

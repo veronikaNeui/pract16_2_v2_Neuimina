@@ -11,7 +11,7 @@
     <string name="password">Пароль</string>
     <string name="reg">Register</string>
     <string name="profil">Профиль</string>
-    <string name="name">С возвращением, Вероника!</string>
+    <string name="name">С возвращением, Эмиль!</string>
     <string name="question">Каким ты себя ощущаешь сегодня?</string>
     <string name="calm">Спокойным</string>
     <string name="relaxing">Расслабленным</string>
@@ -21,5 +21,9 @@
     <string name="zagolovok">Заголовок блока</string>
     <string name="krat">Кратенькое описание блока с двумя строчками</string>
     <string name="podrobnee">подробнее</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>
