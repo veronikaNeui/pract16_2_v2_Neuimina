@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">variant3</string>
+    <string name="welcomeback">Welcome Back</string>
+    <string name="txt">Fill in your email and password to continue</string>
+    <string name="EmailLabel">Email Address</string>
+    <string name="mail">***********@mail.com</string>
+    <string name="password">Password</string>
+    <string name="pass">**********</string>
+    <string name="remember">Remember password</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="log_in">Log in</string>
+    <string name="q">Already have an account? Sign Up</string>
+    <string name="t">or log in using</string>
+    <string name="back">Назад</string>
+    <string name="chats">Chats</string>
+    <string name="a">Search for a driver...</string>
+</resources>
